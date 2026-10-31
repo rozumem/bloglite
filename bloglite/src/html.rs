@@ -598,7 +598,7 @@ pub async fn page(
     let data_theme = if data_theme == "on" {
         ""
     } else {
-        "data-theme='light'"
+        "data-theme='dark'"
     };
     let page = indoc::formatdoc! {
         r#"
